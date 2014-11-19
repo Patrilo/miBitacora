@@ -6,8 +6,11 @@
 			<ul class= "nav-bar">
 				<li>Inicio</li>
 				<li>Crea tu Bitácora</li>
-				<li><%= link_to 'Regístrate', 'http://localhost:3000/users/signup' %></li>
-				<li><%= link_to 'Identificate', 'http://localhost:3000/users/login' %></li>
+				<li><%= link_to 'Regístrate', new_user_registration_path %></li>
+				<li><%= link_to 'Identificate', new_user_session_path %></li>
+				<li><%= link_to 'Salir', destroy_user_session_path, method: :delete 	%></li>
+				
+			  	
 			</ul>
 		</nav>
 	</header>
@@ -32,3 +35,4 @@
 
 </body>
 </html>
+
