@@ -41,14 +41,27 @@
 .bkg-container>h3{
 	font-size: 2em;
 }
-  
+  .tutorial {
+
+
+  }
+
+
+
+ .item {
+
+
+
+
+
+ }
 .circulo {
 	border-radius: 50%;
 	width: 150px;
 	height: 150px;
 	background-color: blue;
 	text-align: ;
-	margin: 55px;
+	
 }
 
 .info{
@@ -76,4 +89,18 @@
 	float: right;
 	font-family: 'Coming Soon', cursive;
 	color: white;
+}
+
+
+.boton{
+	background-color: #6495ed;
+	margin-left:50%;
+	color: white;
+	
+}
+
+.footer {
+	margin-top: 50px;
+	margin-left:50%;
+	
 }

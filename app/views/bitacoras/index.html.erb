@@ -1,0 +1,8 @@
+
+
+
+<% @bitacoras.each do |bitacora| %>
+<%= bitacora.provincia%>
+<%= bitacora.fecha %>
+<% end %>
+<%= link_to 'New Bitacora', new_bitacora_path %>

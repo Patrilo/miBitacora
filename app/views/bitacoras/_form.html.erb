@@ -1,0 +1,43 @@
+<%= form_for(@bitacora) do |f| %>
+  <% if @bitacora.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@bitacora.errors.count, "error") %> prohibited this bitacora from being saved:</h2>
+
+      <ul>
+      <% @bitacora.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :nombre %>
+    <%= f.text_field :nombre %>
+  </div>
+
+  <div class="field">
+    <%= f.label :provincia %>
+    <%= f.text_field :provincia %>
+  </div>
+  <div class="field">
+    <%= f.label :fecha %>
+    <%= f.text_field :fecha %>
+  </div>
+  <div class="field">
+    <%= f.label :visitas %>
+    <%= f.text_field :visitas %>
+  </div>
+  <div class="field">
+    <%= f.label :acompañantes %>
+    <%= f.text_field :acompañantes %>
+  </div>
+   <div class="field">
+    <%= f.label :anecdotas %>
+    <%= f.text_field :anecdotas %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -4,9 +4,10 @@
 		<h1 class="logo">Bitácora de viajes</h1>
 		<nav>
 			<ul class= "nav-bar">
-				<li>Inicio</li>
-				<li>Crea tu Bitácora</li>
+			<li><%= link_to 'Inicio', home_path %></li>
+				
 				<% if user_signed_in? %>
+				<li><%= link_to 'Crea tu Bitácora', new_bitacora_path %></li>
 				<li><%= link_to 'Salir', destroy_user_session_path, method: :delete	%></li>
 				<% else %>
 				<li><%= link_to 'Regístrate', new_user_registration_path %></li>
@@ -31,11 +32,42 @@
 		<article class="item">
 			<div class="circulo"></div>
 			<div>
-				<h4>TITULO</h4>
+				<h4>Elige Tu ciudad</h4>
+				<p>Lorem ipsum....</p>
+			</div>
+		</article>
+		
+
+	
+	</section>
+	<section class="tutorial">
+		<article class="item">
+			<div class="circulo"></div>
+			<div>
+				<h4>Elige la fecha</h4>
 				<p>Lorem ipsum....</p>
 			</div>
 		</article>
 	</section>
+	<section class="tutorial">
+		<article class="item">
+			<div class="circulo"></div>
+			<div>
+				<h4>Elige algo</h4>
+				<p>Lorem ipsum....</p>
+			</div>
+		</article>
+	</section>
+
+<button class="btn btn-default boton" type="submit">
+<%= link_to 'Crea tu Bitácora', new_bitacora_path %></button>
+
+	<footer>
+		<div class= "footer">CreaTuBitacora 2014</div>
+ 
+ 	
+
+	</footer>
 
 </body>
 </html>

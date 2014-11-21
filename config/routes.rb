@@ -4,8 +4,9 @@ Rails.application.routes.draw do
            
   get 'home' => 'home#index'
   get '/users/:id', to: 'users#show'
+  
   root 'home#index'
-  resources :pages
+  resources :bitacoras
 
 
   # The priority is based upon order of creation: first created -> highest priority.
