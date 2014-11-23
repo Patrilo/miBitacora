@@ -1,0 +1,51 @@
+form {
+    position: relative;
+    width: 305px;
+    margin: 15px auto 0 auto;
+    text-align: center;
+}
+
+
+ h2 {
+    margin-left: 400px;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+
+.registro {
+  height: 5000px;
+  font-family: 'Cabin', sans-serif;
+
+}
+
+#titulo {
+  color
+}
+
+
+.f.label{
+     border: 1px solid #848484; 
+    -webkit-border-radius: 30px; 
+     border-radius: 30px; 
+    outline:0; 
+    height:25px; 
+    width: 275px; 
+    padding-left:10px; 
+    padding-right:10px; 
+    margin-top: 50px;
+  } 
+</style> 
+
+
+}
+
+
+.text {
+
+
+
+}
+
+.actions {
+   btn btn-primary btn-lg active

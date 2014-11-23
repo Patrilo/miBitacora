@@ -12,7 +12,7 @@ before_action :authenticate_user!
 		@bitacora = Bitacora.new(bitacora_params)
 		@bitacora.user = current_user
 	if @bitacora.save
-		redirect_to pages_path, notice: "bitacora was succesfully created."
+		redirect_to bitacoras_path, notice: "bitacora was succesfully created."
 	else
 		render :new 
 	end
@@ -20,7 +20,7 @@ end
 
 private
  def bitacora_params
- 	params.require(:bitacora).permit(:provincia, :fecha)
+ 	params.require(:bitacora).permit(:name, :provincia, :fecha, :visitas, :acompañantes, :anecdotas)
  end
 	
 end
