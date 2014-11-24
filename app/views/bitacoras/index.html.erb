@@ -1,8 +1,45 @@
 
+<body class = "marron">
+
+<header class="navigation">
+		<h1 class="logo">Bitácora de viajes</h1>
+		<nav>
+			<ul class= "nav-bar">
+			<li><%= link_to 'Crea tu Bitácora', new_bitacora_path %></li>
+				
+				<% if user_signed_in? %>
+				
+				<li><%= link_to 'Salir', destroy_user_session_path, method: :delete	%></li>
+				<% else %>
+				<li><%= link_to 'Regístrate', new_user_registration_path %></li>
+				<li><%= link_to 'Identificate', new_user_session_path %></li>
+				
+				<% end %>							  	
+			</ul>
+		</nav>
+
 
 
 <% @bitacoras.each do |bitacora| %>
-<%= bitacora.provincia%>
-<%= bitacora.fecha %>
+	<li class = "list"><%= bitacora.provincia%></li>
+	<li class = "list"><%= bitacora.fecha %></li>
+	<li class = "list"><%= bitacora.visitas%></li>
+	<li class = "list"><%= bitacora.acompañantes %></li>
+	<li class = "list"><%= bitacora.anecdotas%></li>
+	<li class = "list"><%= bitacora.name %><li>
+
+<div class = "book">
+	
+</div>
+
+<%= link_to 'Destroy', bitacora_path(bitacora),
+ 			method: :delete, data:
+            {confirm: 'Are you sure?'}
+            %>
+
+
 <% end %>
 <%= link_to 'New Bitacora', new_bitacora_path %>
+
+
+</body>

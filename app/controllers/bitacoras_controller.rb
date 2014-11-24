@@ -1,5 +1,13 @@
 class BitacorasController < ApplicationController
 before_action :authenticate_user!
+
+	def destroy
+		  @bitacora = Bitacora.find(params[:id])
+		  @bitacora.destroy
+
+		  redirect_to bitacoras_path
+	end
+
 	def index
 		@bitacoras = current_user.bitacoras
 	end
@@ -16,7 +24,10 @@ before_action :authenticate_user!
 	else
 		render :new 
 	end
-end
+
+	end
+
+
 
 private
  def bitacora_params
