@@ -1,18 +1,45 @@
-.marron {
-	background-color:#b68d4c;
-}
 
 
 .book {
-	background-image: url("blanco.jpg");
+	background-image: url("blanco1.jpg");
 	height: 580px;
 	background-repeat: no-repeat;
 	margin-left: 300px;
+	padding-top: 470px;
 }
+
 
 .list {
 
- 	
+	font-family: 'Indie Flower', cursive;
+	list-style:none;
+
+}
 
 
+.bitacoras {
+	margin-top: 80px;
+}
+
+.bitacora{
+	background-color: white;
+	border: 2px grey;
+	box-shadow: 2px 1px 2px black;
+	margin-bottom: 20px;
+}
+
+.bitacora-btn{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.letter  {
+	font-family: 'Coming Soon', cursive;
+	color-background: white;
+	text-decoration: none;
+
+}
+
+.bt-name{
+	font-size: 2em;
+	text-align: center;
 }

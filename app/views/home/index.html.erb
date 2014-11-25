@@ -12,7 +12,7 @@
 				<% else %>
 				<li><%= link_to 'Regístrate', new_user_registration_path %></li>
 				<li><%= link_to 'Identificate', new_user_session_path %></li>
-				
+
 				<% end %>							  	
 			</ul>
 		</nav>
@@ -24,78 +24,89 @@
 
 	<section class="info">
 		<article class="gif"></article>
-		<article class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, libero quae nulla. Autem blanditiis v <a href="modalBlack">¿Preparado para crear tu bitácora?
-		<span>¿A qué esperas para crear tu bitácora?</span></a>.</article>
+		<article class="texto">Alguna vez has querido recordar todos tus viajes?
+		<br> <a href="modalBlack">¿Estás preparado para crear tu bitácora?
+		</br>
+		<span>Sigue leyendo!</span></a></article>
 		
 	</section>
 
-	<section class="tutorial1">
-		<article class="item1">
-			<div class="city">
+	<section class="container">
+		<article class="item">
+			<div class="city col-md-6 col-sm-6 col-lg-6">
 				<div class = "info1">
-				<p id = "headline1">Ciudad</p>
+					<p id = "headline1">Ciudad</p>
 				</div>
 			</div>
-			<div class = "title1">
+			<div class = "title1 col-md-6 col-sm-6 col-lg-6">
 				<h4>Elige Tu ciudad</h4>
-				<p>Lorem ipsum....</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque sapien nunc, in lacinia ipsum gravida ac. Curabitur sagittis, ex id tincidunt cursus, ipsum neque vulputate est, in fermentum nisl diam eu massa. Donec cursus malesuada sem, eu maximus sapien blandit eget. Praesent sit amet ex eget ante pharetra sagittis. </p>
 			</div>
 		</article>
 			
 	</section>
-	<section class="tutorial2">
-		<article class="item2">
-			<div class="calendar">
+	<section class="container margin-cnt">
+		<article class="item">
+			<div class="calendar col-md-6 col-sm-6 col-lg-6">
 				<div class = "info2">
 					<p id = "headline2">Calendario</p>
 				</div>
 			</div>
-			<div class = "title2">
+			<div class = "title2 col-md-6 col-sm-6 col-lg-6">
 				<h4>Elige la fecha</h4>
-				<p>Lorem ipsum....</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nulla, quo, maxime facilis a consequuntur? Velit dignissimos earum aspernatur, iure voluptatem minima eius repudiandae, assumenda consectetur eveniet provident quos excepturiEtiam fringilla accumsan arcu. Maecenas eleifend elit at nisl luctus, vel hendrerit massa bibendum. Etiam pretium, quam non aliquet commodo, mi massa venenatis lacus, sit amet venenatis risus ex et lorem. .</p>
 			
 		</article>
 	</section>
 
-	<section class="tutorial3">
-		<article class="item3">
+	<section class="container margin-cnt">
+		<article class="item">
 			<div class="plans">
 				<div class = "info3">
 				<p id = "headline3">Planes</p>
 				</div>
+			</div>
 			<div class = "title3">
 				<h4>Elige tus planes</h4>
-				<p>Lorem...</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus modi veritatis dolorum harum explicabo reprehenderit enim, dolorem, nam tempora nemo, doloribus animi. Tempore nihil dolorem delectus nostrum sed error fuga? Etiam fringilla accumsan arcu. Maecenas eleifend elit at nisl luctus, vel hendrerit massa bibendum. Etiam pretium, quam non aliquet commodo, mi massa venenatis lacus, sit amet venenatis risus ex et lorem. Maecenas nisl purus, gravida at dui sit amet, volutpat laoreet mauris. Aenean congue feugiat erat vel pretium. Suspendisse ultricies ornare nunc quis accumsan.</p>
 				</div>
 		</article>
 	</section>
 
-<button class="btn btn-default boton" type="submit">
-<%= link_to 'Crea tu Bitácora', new_bitacora_path %></button>
+<section class="container margin-cnt btn-cnt">
+	<button class="btn btn-lg btn-default boton" type="submit">
+	<%= link_to 'Crea tu Bitácora', new_bitacora_path %></button>
+</section>
 
 
 
-	<footer class = "footer">
-		<section id = "social">
+
+<footer class = "footer">
+	<section class="container">
+		<article id = "social">
  			<ul class = "icons">
  				<li><div class = "facebook"></li>
  				<li><div class = "twitter"></li>
  				<li><div class = "instagram"></li>
  				<li><div class = "github"></li>
  			</ul>
- 		</section>
+ 		</article>
 		
-		<section id = "contact">
+		<article id = "contact">
 			<h3><b>Contacta</b></h3>
 			<p>Avenida de Brasil, 55</p>
 			<p>Teléfono 91 554 39 75</p>
 			<p>Email patri@gmail.com</p>
 
 
-		</section>
-		<div class= "copyRight"><p>2014 Crea tu Bitácora</p>
+		</article>
+		<div class= "copyRight container">
+			<p>2014 Crea tu Bitácora</p>
+		</div>
+	</section>
+	
 
-	</footer>
+</footer>
 
 </body>
 </html>

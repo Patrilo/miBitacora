@@ -10,6 +10,7 @@ before_action :authenticate_user!
 
 	def index
 		@bitacoras = current_user.bitacoras
+		@bitacora = Bitacora.new
 	end
 
 	def new
