@@ -1,3 +1,30 @@
+
+.encima {
+  margin-left: 550px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 45px;
+  color: white;
+}
+.register {
+  margin-left: 590px;
+  font-family: 'Neuton', serif;
+  font-size: 20px;
+  color:white;
+}
+
+.registroBackground {
+  background-image: url("registro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  color:white;
+}
+
+
+
+
 /*form {
     position: relative;
     width: 305px;
