@@ -4,14 +4,15 @@
 		<h1 class="logo">Bitácora de viajes</h1>
 		<nav>
 			<ul class= "nav-bar">
-			<li><%= link_to 'Inicio', home_path %></li>
+			<li ><%= link_to 'Inicio', home_path, {:style => 'color: #FFFFFF'}%></li>
+			
 				
 				<% if user_signed_in? %>
-				<li><%= link_to 'Crea tu Bitácora', new_bitacora_path %></li>
-				<li><%= link_to 'Salir', destroy_user_session_path, method: :delete	%></li>
+				<li><%= link_to 'Crea tu Bitácora', new_bitacora_path, {:style => 'color: #FFFFFF'} %></li>
+				<li><%= link_to 'Salir', destroy_user_session_path, :style => 'color: #FFFFFF', method: :delete %></li>
 				<% else %>
-				<li><%= link_to 'Regístrate', new_user_registration_path %></li>
-				<li><%= link_to 'Identificate', new_user_session_path %></li>
+				<li><%= link_to 'Regístrate', new_user_registration_path, {:style => 'color: #FFFFFF'} %></li>
+				<li><%= link_to 'Identificate', new_user_session_path, {:style => 'color: #FFFFFF'} %></li>
 
 				<% end %>							  	
 			</ul>
@@ -39,7 +40,7 @@
 				</div>
 			</div>
 			<div class = "title1 col-md-6 col-sm-6 col-lg-6">
-				<h4>Elige Tu ciudad</h4>
+				<h4><b>Elige tu ciudad</b></h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pellentesque sapien nunc, in lacinia ipsum gravida ac. Curabitur sagittis, ex id tincidunt cursus, ipsum neque vulputate est, in fermentum nisl diam eu massa. Donec cursus malesuada sem, eu maximus sapien blandit eget. Praesent sit amet ex eget ante pharetra sagittis. </p>
 			</div>
 		</article>
@@ -53,7 +54,7 @@
 				</div>
 			</div>
 			<div class = "title2 col-md-6 col-sm-6 col-lg-6">
-				<h4>Elige la fecha</h4>
+				<h4><b>Elige la fecha</b></h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nulla, quo, maxime facilis a consequuntur? Velit dignissimos earum aspernatur, iure voluptatem minima eius repudiandae, assumenda consectetur eveniet provident quos excepturiEtiam fringilla accumsan arcu. Maecenas eleifend elit at nisl luctus, vel hendrerit massa bibendum. Etiam pretium, quam non aliquet commodo, mi massa venenatis lacus, sit amet venenatis risus ex et lorem. .</p>
 			
 		</article>
@@ -67,7 +68,7 @@
 				</div>
 			</div>
 			<div class = "title3">
-				<h4>Elige tus planes</h4>
+				<h4><b>Elige tus planes</b></h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus modi veritatis dolorum harum explicabo reprehenderit enim, dolorem, nam tempora nemo, doloribus animi. Tempore nihil dolorem delectus nostrum sed error fuga? Etiam fringilla accumsan arcu. Maecenas eleifend elit at nisl luctus, vel hendrerit massa bibendum. Etiam pretium, quam non aliquet commodo, mi massa venenatis lacus, sit amet venenatis risus ex et lorem. Maecenas nisl purus, gravida at dui sit amet, volutpat laoreet mauris. Aenean congue feugiat erat vel pretium. Suspendisse ultricies ornare nunc quis accumsan.</p>
 				</div>
 		</article>

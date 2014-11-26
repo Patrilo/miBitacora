@@ -1,14 +1,38 @@
-
-
-.book {
-	background-image: url("blanco1.jpg");
-	height: 580px;
-	background-repeat: no-repeat;
-	margin-left: 300px;
-	padding-top: 470px;
+.hello {
+	color : #FFFFFF;
+	margin-right: 350px;
+	float:left;
+	position:relative;
+	top: -10px;
+	font-size: 2em;
 }
 
 
+.out {
+	color:#FFFFFF;
+}
+
+.book {
+	background-image: url("blanco1.jpg");
+	height: 480px;
+	width:450px;
+	background-repeat: no-repeat;
+	margin-left: 300px;
+	padding-top: 470px;
+	position: absolute;
+}
+
+.formulario{
+	list-style-type: none;
+	text-align: justify;
+	width:30%;
+	display:inline-block;
+}
+
+.content{
+	text-align: center;
+	position: relative;
+}
 .list {
 
 	font-family: 'Indie Flower', cursive;
@@ -43,3 +67,4 @@
 	font-size: 2em;
 	text-align: center;
 }
+
