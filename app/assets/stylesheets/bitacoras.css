@@ -32,9 +32,10 @@
 .content{
 	text-align: center;
 	position: relative;
+	font-family: 'Neuton', serif;
+	padding-right: 20px;
 }
 .list {
-
 	font-family: 'Indie Flower', cursive;
 	list-style:none;
 

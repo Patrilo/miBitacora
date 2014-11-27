@@ -5,13 +5,17 @@
   padding-top: 30px;
   font-family: 'Lobster Two', cursive;
   font-size: 45px;
-  color: white;
+  color: #ff920a;
+   font-weight: bolder;
+
 }
 .register {
   margin-left: 590px;
   font-family: 'Neuton', serif;
   font-size: 20px;
-  color:white;
+  color:#ff920a;
+  font-weight: bolder;
+  color: rgba(255,175,75,1);
 }
 
 .registroBackground {
@@ -19,58 +23,68 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 650px;
-  color:white;
+  color:#ff920a;
+  font-weight: bolder;
+}
+
+.encimaIdentificate {
+  margin-left: 650px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 45px;
+  color: #ff920a;
+   font-weight: bolder;
+}
+.identificateBackground {
+
+  background-image: url("identificate.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  color:#ff920a;
+  font-weight: bolder;
 }
 
 
+.registerIdentificate {
+  margin-left: 660px;
+  font-family: 'Neuton', serif;
+  font-size: 20px;
+  color:#ff920a;
+  font-weight: bolder;
+  color: rgba(255,175,75,1);
+}
 
+.newBitacora {
+  margin-left: 390px;
+  font-family: 'Neuton', serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #32CD32;
+}
 
-/*form {
-    position: relative;
-    width: 305px;
-    margin: 15px auto 0 auto;
-    text-align: center;
+.encimaNewBitacora {
+  padding-bottom: 30px;
+  padding-top: 10px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 45px;
+  color: #32CD32;
+  font-weight: bolder;
+  margin-left: 390px;
+}
+
+/*
+.bitacoraBackground {
+
+  background-image: url("travel.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  color:#ff920a;
+  font-weight: bolder;
 }
 
 
- 
-
-.registro {
-  height: 5000px;
-  font-family: 'Cabin', sans-serif;
-
-}
-
-#titulo {
-  color
-}
-
-
-.f.label{
-     border: 1px solid #848484; 
-    -webkit-border-radius: 30px; 
-     border-radius: 30px; 
-    outline:0; 
-    height:25px; 
-    width: 275px; 
-    padding-left:10px; 
-    padding-right:10px; 
-    margin-top: 50px;
-  } 
-</style> 
-
-
-}
-
-
-.text {
-
-
-
-}
-
-.actions {
-   btn btn-primary btn-lg active
-
-
-   */
+*/
