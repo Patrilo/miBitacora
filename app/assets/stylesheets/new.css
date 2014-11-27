@@ -5,26 +5,26 @@
   padding-top: 30px;
   font-family: 'Lobster Two', cursive;
   font-size: 45px;
-  color: #ff920a;
+  color: yellow;
    font-weight: bolder;
 
 }
 .register {
   margin-left: 590px;
-  font-family: 'Neuton', serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 20px;
-  color:#ff920a;
+
   font-weight: bolder;
-  color: rgba(255,175,75,1);
+
+   color: yellow;
 }
 
+
 .registroBackground {
-  background-image: url("registro.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 650px;
-  color:#ff920a;
-  font-weight: bolder;
+  background: url(registro.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  height: 100%;
+     font-weight: bolder;
 }
 
 .encimaIdentificate {
@@ -57,11 +57,14 @@
 }
 
 .newBitacora {
-  margin-left: 390px;
+  margin-left: 590px;
   font-family: 'Neuton', serif;
   font-size: 20px;
   font-weight: bolder;
   color: #32CD32;
+  display:inline-block;
+  float:left;
+  
 }
 
 .encimaNewBitacora {
@@ -71,8 +74,21 @@
   font-size: 45px;
   color: #32CD32;
   font-weight: bolder;
-  margin-left: 390px;
+  margin-left: 590px;
+
+
 }
+
+
+.pie {
+   background-image: url("pieMaletas.jpg");
+   
+    height: 430px;
+    float:right;
+    display:inline;
+    
+}
+
 
 /*
 .bitacoraBackground {

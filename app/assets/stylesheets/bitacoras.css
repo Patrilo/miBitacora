@@ -13,27 +13,33 @@
 }
 
 .book {
-	background-image: url("blanco1.jpg");
-	height: 480px;
-	width:450px;
+	background-image: url("blanco2.jpg");
+	height: 680px;
 	background-repeat: no-repeat;
-	margin-left: 300px;
-	padding-top: 470px;
-	position: absolute;
+	margin-left: 700px;
+	padding-top: 50px;
+	text-align: center;
+	font-family: 'Neuton', serif;
+
 }
 
 .formulario{
 	list-style-type: none;
-	text-align: justify;
+	text-align: center;
 	width:30%;
 	display:inline-block;
+	font-size: 18px;
+	margin-left: 190px;
+	
+
 }
 
 .content{
 	text-align: center;
 	position: relative;
 	font-family: 'Neuton', serif;
-	padding-right: 20px;
+	padding-right: 18px;
+	
 }
 .list {
 	font-family: 'Indie Flower', cursive;
@@ -51,6 +57,8 @@
 	border: 2px grey;
 	box-shadow: 2px 1px 2px black;
 	margin-bottom: 20px;
+	font-size: 30px;
+
 }
 
 .bitacora-btn{

@@ -13,14 +13,14 @@
           
           <h2 class = "encimaNewBitacora"><b>Nueva Bitácora</b></h2>
 
-        <section class ="bitacoraBackground">
-       <section class = "newBitacora">
+  <section class ="bitacoraBackground">
+   <article class = "newBitacora">
 
     <form class="form-horizontal" role="form">
 
       <div class="form-group input-group">
             <%= f.label :Título %>
-            <%= f.text_field :name, :class => "form-control", :placeholder =>"Escribe el titulo" %> %>
+            <%= f.text_field :name, :class => "form-control", :placeholder =>"Escribe el titulo" %>
           </div>
           <div class="form-group input-group">
             <%= f.label :provincia %>
@@ -44,10 +44,24 @@
           </div>
 
           <div class="actions ">
-            <%= f.submit :class => "btn btn-success", :style => "font-size: 25px" %>
+            <%= f.submit "Crea tu Bitácora" ,:class => "btn btn-success", :style => "font-size: 20px; margin-top: 15px" %>
           </div>
         <% end %>
 
-</section>
+
+  
+<div class = "pie">
+
+</div>
+
+
+  </article>
 
 </section>
+
+
+
+<div class = "pie">
+
+</div>
+

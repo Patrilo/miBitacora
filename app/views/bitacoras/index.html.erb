@@ -22,7 +22,7 @@
 	<% @bitacoras.each do |bitacora| %>
 		<article class="bitacora container">
 					
-			<li class = "list"><b>Nombre:</b> <%= bitacora.name %><li>
+			<li class = "list"><b>Nombre:</b> <%= bitacora.name %></li>
 			<li class = "list"><b>Fecha:</b> <%= bitacora.fecha %></li>
 			<li class = "list"><b>Provincia:</b><%= bitacora.provincia %></li>
 			<li class = "list"><b>Visitas:</b> <%= bitacora.visitas %></li>
@@ -60,43 +60,43 @@
 
 	
 	<section class = "book container">
-		<article class = "content">
+		
 		<form action = "">
 		
  			<ul class= "formulario">
 			    <div class="form-group input-group">
 			    <%= f.label :nombre %>
-			    <%= f.text_field :name %>
+			    <%= f.text_field :name, :class => "form-control margin-left: 390px" %>
 			  </div>
 			  <div class="form-group input-group">
 			    <%= f.label :provincia %>
-			    <%= f.text_field :provincia %>
+			    <%= f.text_field :provincia, :class => "form-control col-xs-3" %>
 			  </div>
 			  <div class="form-group input-group">
 			    <%= f.label :fecha %>
-			    <%= f.text_field :fecha %>
+			    <%= f.text_field :fecha, :class => "form-control" %>
 			  </div>
 			  <div class="form-group input-group">
 			    <%= f.label :visitas %>
-			    <%= f.text_field :visitas %>
+			    <%= f.text_field :visitas, :class => "form-control" %>
 			  </div>
 			  <div class="form-group input-group">
 			    <%= f.label :acompañantes %>
-			    <%= f.text_field :acompañantes %>
+			    <%= f.text_field :acompañantes,:class => "form-control" %>
 			  </div>
 			   <div class="form-group input-group">
-			    <%= f.label :anecdotas %>
-			    <%= f.text_field :anecdotas %>
+			    <%= f.label :anécdotas %>
+			    <%= f.text_field :anecdotas, :class => "form-control" %>
 			  </div>
 
 	  		
-	    	<%= f.submit :class => "btn btn-success", :style => "font-size: 15px" %>
+	    	<%= f.submit "Crea tu Bitácora", :class => "btn btn-success", :style => "font-size: 15px" %>
 	  		</div>
 
 				<% end %>
 		</ul>
 	</form>
-	</article>
+
 
 	</section>
 
@@ -106,3 +106,30 @@
 </div>
 
 
+
+<footer class = "footer">
+	<section class="container">
+		<article id = "social">
+ 			<ul class = "icons">
+ 				<li><div class = "facebook"></li>
+ 				<li><div class = "twitter"></li>
+ 				<li><div class = "instagram"></li>
+ 				<li><div class = "github"></li>
+ 			</ul>
+ 		</article>
+		
+		<article id = "contact">
+			<h3><b>Contacta</b></h3>
+			<p>Avenida de Brasil, 55</p>
+			<p>Teléfono 91 554 39 75</p>
+			<p>Email patri@gmail.com</p>
+
+
+		</article>
+		<div class= "copyRight container">
+			<p>2014 Crea tu Bitácora</p>
+		</div>
+	</section>
+	
+
+</footer>
